@@ -1,0 +1,30 @@
+body{
+  background:#d8fcfa;
+  height:100vh;
+}
+img{
+  width:100% !important;
+  height: 400px !important
+}
+li{
+  display:none;
+  margin-bottom: 10px;
+}
+ul{
+  display:grid !important;
+  grid-template-columns: repeat(2,1fr) !important;
+  gap:1em
+}
+.line{
+  width:100px;
+  height:5px;
+  background-color: rgb(0, 0, 82);
+}
+.item{
+  display:flex;
+  justify-content: space-between;
+}
+.item h4{
+  background:#fff;
+  width:100%
+}
